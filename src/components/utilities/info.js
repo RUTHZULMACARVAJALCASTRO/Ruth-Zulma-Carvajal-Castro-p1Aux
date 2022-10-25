@@ -1,6 +1,6 @@
 export const info = {
-    firstName: "Ruth Carvajal",
-    lastName: "Smith",
+    firstName: "Ruth Zulma",
+    lastName: "Carvajal Castro",
     position: "a Full Stack Developer",
     links:[
         {
@@ -12,8 +12,8 @@ export const info = {
             name: 'About',
             to: '/about',
             active:'about'
-        }
-    ],
+        },
+      ],
     miniBio:[
         {
             emoji: '🥗',
@@ -56,7 +56,13 @@ export const info = {
             icon: "fa fa-twitter"
         }
     ],
-   
+    bio: ' Hello! I am Edson. I am a Systems Engineering student. I study at U.A.T.F, enjoy long walks with friends, and believe that artificial intelligence will inevitably rule us allone day. Put Study Desire to Matter!',
+    skills:
+    {
+    proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5',
+    'css3', 'figma', 'storybook', 'sass'],
+    exposedTo: ['nodejs', 'laravel']
+    },
     hobbies: [
         {
             label: 'reading',
